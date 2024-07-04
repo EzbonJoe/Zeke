@@ -1,0 +1,55 @@
+:root{
+  font-size: 62.5%;
+  font-family: roboto;
+}
+
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(2, 2, 48);
+  border-bottom-width: 2px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color:rgb(253, 252, 252);
+}
+
+.burger-container{
+  display: none;
+}
+
+.left-section a{
+  text-decoration: none;
+}
+
+.left-section nav ul a{
+  text-decoration: none;
+  color: rgb(94, 29, 39);
+}
+
+#zeke {
+  font-size: 6rem;
+  color: rgb(94, 29, 39);
+  font-family: roboto;
+  font-weight: bold;
+}
+
+.left-section{
+  display: flex;
+  align-items: center;
+}
+
+.left-section nav ul{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.left-section nav ul li{
+  margin-right: 12px;
+  font-size: 2rem;
+  font-weight: bold;
+}

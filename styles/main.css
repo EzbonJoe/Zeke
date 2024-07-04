@@ -1,0 +1,163 @@
+body{
+  padding-top: 80px;
+}
+
+.burger-menu{
+  display: none;
+}
+
+main{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+main section{
+  margin-bottom: 50px;
+}
+
+.hire h3{
+  font-size: 6rem;
+  font-weight:bold;
+  color: white
+}
+
+.hire{
+  background-image: url(../background-images/wood-1759566_640.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px;
+  margin-top: 2px;
+}
+
+.hire p{
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.hire{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact-button{
+  padding: 15px;
+  background-color:#eee;
+  color:black;
+  font-family: roboto;
+  font-weight: 600;
+  font-size: 1.5rem;
+  border-style: none;
+}
+
+#contact-button:hover {
+  cursor: pointer;
+}
+
+.about-me{
+  margin-bottom: 20px;
+}
+
+.about-me h3{
+  font-size: 6rem;
+  font-weight:bold;
+  text-decoration: underline;
+  color: rgb(94, 29, 39);
+}
+
+.about-me p{
+  font-size: 3rem;
+}
+
+#ezbon{
+  height: 510px;
+  border-radius: 200px;
+  margin-right: 12px;
+}
+
+#ezbon-container{
+  display: flex;
+  align-items: center;
+}
+
+.paragraphs{
+  background-color: #eee;
+  padding: 12px;
+}
+
+.about-me-paragraph{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 40px;
+  font-size: 3rem;
+  margin-bottom: 12px;
+}
+
+#projects-heading{
+  font-size: 3rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.projects ul li{
+  font-size: 1.8rem;
+}
+
+@media only screen and (max-width:412px){
+  main{
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+
+  .hire h3{
+    font-size:4rem;
+  }
+
+  .hire p{
+    font-size: 2.2rem;
+  }
+
+  #contact-button{
+    cursor: pointer;
+  }
+
+  .about-me h3{
+    font-size: 4rem;
+    margin-left: 10px;
+  }
+
+  #ezbon{
+    height: 275px;
+    width: 250px;
+    object-fit:cover; 
+  }
+
+  #ezbon-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #projects-heading{
+    margin-left: 10px;
+  }
+  
+
+  .paragraphs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+  }
+
+  .about-me-paragraph{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 23px;
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+  }  
+}
+

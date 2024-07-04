@@ -1,0 +1,57 @@
+body{
+  padding-top: 80px;
+}
+
+.burger-menu{
+  display: none;
+}
+
+
+.ezbon{
+  height: 400px;
+  width: 320px;
+  border-radius: 150px;
+}
+
+.about-dev{
+  background-color: #eee;
+}
+
+.dev-heading{
+  color:rgb(94, 29, 39);
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.description{
+  font-size: 1.8rem;
+  line-height: 34px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width:412px){
+
+  main{
+    padding:10px;
+  }
+
+  .dev-heading{
+    font-size: 3.2rem;
+    text-decoration: underline;
+  }
+
+  .ezbon{
+    height: 275px;
+    width: 260px;
+    object-fit:cover; 
+    margin-bottom: 12px;
+  }
+
+  .description{
+    line-height: 28px;
+  }
+
+  .about-dev{
+    padding: 10px;
+  }
+}
